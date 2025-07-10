@@ -5,9 +5,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     
+    <link rel="icon" href="assets/logo.png" type="image/png">
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width= , initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Builds</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -22,19 +24,20 @@
          <h2>Assistente de Builds</h2>
          <p>Pergunte ao assistente sobre builds e dicas para seus jogos!</p>
          
-         <form>
-            <input type="password" placeholder="Informe a API KEY" required>
+         <form id="form">
+            <input id="apiKey"  type="password" placeholder="Informe a API KEY" required>
             
-            <select>
+            <select id="gameSelect" required>
                 <option value="">Selecione um Jogo</option>
                 <option value="warframe">Warframe</option>
                 <option value="lol">League of legends</option>
-                <option value="dota2">Dota 2</option>               
+                <option value="dota2">Dota 2</option> 
+                <option value="Star Rail">Honkai Star Rail</option>              
             </select>
             
-            <input type="text" placeholder="Digite sua pergunta">
+            <input id ="question" type="text" placeholder="Digite sua pergunta">
 
-            <button>
+            <button id="askButton" type="submit">
                 Perguntar
             </button>
 
@@ -47,6 +50,7 @@
         </div>    
      </section>
     </main>
+    <script src="./script.js"></script>   
 </body>
 
 </html>
