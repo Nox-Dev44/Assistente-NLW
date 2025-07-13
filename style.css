@@ -107,9 +107,29 @@ button:hover {
     box-shadow: initial;
     cursor: not-allowed;
  }
+#aiResponse {
+    background: rgba(0,0,0,0.4);
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    border-left: 4px solid #43E7AD;
+
+}
+
+#aiRespnse p{
+    color: white
+}
+
+#aiResponse ul {
+    padding-left: 1.5rem;
+}
+
 
  .loading{
     animation : pulse 1s infinite;
+ }
+
+ .hidden{
+    display: none;
  }
 
  @keyframes pulse {

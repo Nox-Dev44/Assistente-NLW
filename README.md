@@ -1,5 +1,6 @@
 Projeto da vigésima NLW da RocketSeat. 
 
-Uma plataforma que utiliza da IA Gemini para encontrar builds para jogos competitivos ou cooperativos online.
+Uma plataforma que utiliza da IA Gemini com uma ferramenta de pesquisa para encontrar builds ou dicas para jogos competitivos ou cooperativos.
 
-projeto será criado com HTML, CSS, e JavaScript
+projeto foi criado com HTML, CSS, e JavaScript.
+
